@@ -1,1 +1,1 @@
-FROM connorkeevill/cuda12.1-opencv4.7-ubuntu18.04:latest
+FROM rgayatri/cuda12.1-ubuntu22.04:latest
