@@ -1,1 +1,1 @@
-FROM rgayatri/cuda12.1-ubuntu22.04:latest
+FROM italoassis/cuda12-gcc12:latest
