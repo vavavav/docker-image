@@ -1,1 +1,1 @@
-FROM italoassis/cuda12-gcc12:latest
+FROM ubuntu:18.04
