@@ -1,2 +1,2 @@
 # Base Image
-FROM ubuntu:18.04
+FROM srompark/cuda12.1:latest
