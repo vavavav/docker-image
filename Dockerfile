@@ -1,2 +1,2 @@
 #525
-FROM nvcr.io/nvidia/driver:525.105.17-ubuntu18.04
+FROM nvidia/cuda:12.1.0-base-ubuntu20.04
