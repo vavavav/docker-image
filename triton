@@ -16,7 +16,7 @@ RUN cd tmp && wget -q https://github.com/Kitware/CMake/releases/download/v3.24.0
 
 # Copy necessary files from the host.  A tarball is automatically expanded.
 
-RUN git clone https://github.com/llvm/llvm-project.git /tmp
+RUN git clone https://github.com/llvm/llvm-project.git /tmp/llvm-project
 RUN git checkout c5dede880d175f7229c9b2923f4753e12702305d
 
 # Compile LLVM
