@@ -1,5 +1,5 @@
 # Base Image
-FROM ubuntu:18.04
+FROM registry-1.docker.io/v2/connorkeevill/cuda12.1-opencv4.7-ubuntu18.04:latest
 
 # Install build dependencies of llvm.
 RUN apt update && apt install -y git build-essential make wget python3
