@@ -14,8 +14,9 @@ RUN apt install -y g++-9
 RUN cd tmp && wget -q https://github.com/Kitware/CMake/releases/download/v3.24.0/cmake-3.24.0-linux-x86_64.tar.gz && tar -xf cmake-3.24.0-linux-x86_64.tar.gz
 
 # Copy necessary files from the host.  A tarball is automatically expanded.
-ADD scripts /tmp/scripts
-ADD llvm-project.tar.gz /tmp
+
+git clone https://github.com/llvm/llvm-project.git /tmp
+git checkout c5dede880d175f7229c9b2923f4753e12702305d
 
 # Compile LLVM
 ARG cmake_configs
