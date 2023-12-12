@@ -1,5 +1,5 @@
 # Base Image
-FROM srompark/cuda12.1:latest
+FROM nvidia/cuda:12.1.0-base-ubuntu18.04
 
 # Install build dependencies of llvm.
 RUN apt update && apt install -y git build-essential make wget python3
