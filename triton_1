@@ -1,0 +1,14 @@
+# Base Image
+FROM ubuntu:18.04
+
+# Install build dependencies of llvm.
+RUN apt update && apt install -y git build-essential make wget python3
+
+# g++-9
+RUN apt install -y software-properties-common
+RUN add-apt-repository ppa:ubuntu-toolchain-r/test
+RUN apt update
+RUN apt install -y g++-9
+
+# Use newer CMake for LLVM
+RUN cd tmp && wget -q https://github.com/Kitware/CMake/releases/download/v3.24.0/cmake-3.24.0-linux-x86_64.tar.gz && tar -xf cmake-3.24.0-linux-x86_64.tar.gz
