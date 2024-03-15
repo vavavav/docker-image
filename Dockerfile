@@ -1,2 +1,2 @@
 #525
-FROM nvidia/cuda:12.1.0-base-ubuntu20.04
+FROM nvcr.io/nvidia/pytorch:22.09-py3
