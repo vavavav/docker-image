@@ -1,2 +1,2 @@
 
-FROM openmmlab/mmdeploy:ubuntu20.04-cuda11.8-mmdeploy
+FROM nvcr.io/nvidia/tao/tao-toolkit:5.5.0-pyt
