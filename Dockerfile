@@ -1,1 +1,1 @@
-FROM --platform=linux/arm64 nvcr.io/nvidia/cuda:13.0.0-devel-ubuntu24.04
+FROM dustynv/vllm:r36.4/0-cu128
