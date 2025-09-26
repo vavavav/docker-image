@@ -1,2 +1,2 @@
 
-FROM sophgo/tpuc_dev:latest
+FROM nvcr.io/nvidia/cuda:13.0.0-devel-ubuntu24.04
