@@ -1,1 +1,1 @@
-FROM dustynv/vllm:r36.4-cu129-24.04
+FROM ghcr.io/nvidia-ai-iot/transformers:r38.2.arm64-sbsa-cu130-24.04
